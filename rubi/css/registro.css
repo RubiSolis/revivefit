@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-image: url('../img/fondo.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin-top: 20px; 
+}
+
+
+
+
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: inline-block; /* Cambiado de block a inline-block para que se ajuste al contenido */
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #1cade6; /* Color de fondo para el enlace */
+    color: rgb(23, 181, 221); /* Color del texto en el estado normal */
+
+    /* Agregado el cambio de color al pasar el ratón sobre el botón */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container:hover {
+    background-color: #ffffff; 
+    color: rgb(0, 169, 236); 
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #f2f2f2;
+}

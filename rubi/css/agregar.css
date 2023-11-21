@@ -1,0 +1,59 @@
+body {
+    background-image: url('../img/fondo.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    margin: 0; 
+    padding: 0; 
+    
+  }
+  
+  h1 {
+    background-color: rgb(23, 157, 235); /* Color de fondo del encabezado */
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 400px; /* Ancho máximo del contenedor principal */
+    margin: 30px auto; /* Margen exterior para centrar el contenedor */
+    padding: 40px;
+    background-color: #a4c4dd; /* Color de fondo del contenedor */
+    border-radius: 4px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .form-select {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Color de fondo del botón principal */
+    border-color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el mouse */
+    border-color: #0056b3;
+  }
+  
+  .btn-dark {
+    background-color: #006fdf; /* Color de fondo del botón oscuro */
+    border-color: #343a40;
+  }
+  
+  .btn-dark:hover {
+    background-color: #1d2124;
+    border-color: #1d2124;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
